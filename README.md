@@ -41,7 +41,7 @@ A Microsoft Word add-in that provides intelligent text translation using Google'
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/nttrung2406/word-translator.git
+git clone [https://github.com/nttrung2406/word-translator.git](https://github.com/nttrung2406/translation_tool.git)
 cd word-translator
 ```
 

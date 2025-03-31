@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp
+    xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:bt="http://schemas.microsoft.com/office/basictypes/1.0"
+    xsi:type="TaskPaneApp">
+    <Id>12345678-1234-1234-1234-123456789012</Id>
+    <Version>1.0.0.0</Version>
+    <ProviderName>Your Name</ProviderName>
+    <DefaultLocale>en-US</DefaultLocale>
+    <DisplayName DefaultValue="Word Translator" />
+    <Description DefaultValue="A simple translation add-in using Google's Gemini API"/>
+    <IconUrl DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
+    <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/hi-res-icon.png"/>
+    <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+    <Hosts>
+        <Host Name="Document"/>
+    </Hosts>
+    <DefaultSettings>
+        <SourceLocation DefaultValue="http://localhost:3020/index.html"/>
+    </DefaultSettings>
+    <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp> 

@@ -116,25 +116,6 @@ The add-in will now appear in your Word task pane.
 
 ![image](https://github.com/user-attachments/assets/99f74777-1bde-474d-9b25-79faff831234)
 
-
-## Project Structure
-
-```
-word-translator/
-├── src/
-│   ├── api/
-│   │   ├── gemini.ts         # Gemini API integration
-│   │   ├── types.ts          # TypeScript type definitions
-│   │   └── utils.ts          # Utility functions
-│   ├── components/
-│   │   └── Translator.vue    # Main translation component
-│   └── App.vue              # Root component
-├── manifest.xml             # Office Add-in manifest
-├── package.json            # Project dependencies
-├── tsconfig.json          # TypeScript configuration
-└── .env                   # Environment variables
-```
-
 ## Contributing
 
 1. Fork the repository

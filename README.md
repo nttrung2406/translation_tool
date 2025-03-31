@@ -112,6 +112,11 @@ The add-in will now appear in your Word task pane.
 5. Click "Translate"
 6. The translated text will appear in the output field
 
+## UI Add-in
+
+![image](https://github.com/user-attachments/assets/99f74777-1bde-474d-9b25-79faff831234)
+
+
 ## Project Structure
 
 ```

@@ -35,7 +35,7 @@ A Microsoft Word add-in that provides intelligent text translation using Google'
 - Node.js (v14 or higher)
 - npm or yarn
 - Microsoft Word (desktop version)
-- Google Gemini API key
+- Google Gemini API key (Can be taken from Google AI Studio)
 
 ## Installation
 

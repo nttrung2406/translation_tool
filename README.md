@@ -70,6 +70,26 @@ wordgpt.bat
 
 ## Adding to Microsoft Word
 
+**Microsoft Word Configuration**
+
+1. cd to the project
+2. Create a new folder and add ONLY  `manifest.xml` to that folder then save.
+3. Right click on that folder, choose Properties -> Sharing -> Share -> click Share button.
+4. Save the path of that xml file.
+  ![image](https://github.com/user-attachments/assets/3b994314-1f8e-4c10-950d-538198d43c98)
+
+6. Open Micorsoft Word and go to Options.
+7. In Trust Center tab, choose Trust Center setting.
+  ![image](https://github.com/user-attachments/assets/e2362d81-26ca-40fb-9295-add324f6a702)
+
+8. In Trusted Add-in Catalogs, paster the above xml URL to Catalog URL then add.
+  ![image](https://github.com/user-attachments/assets/77f57715-bdce-4755-93e5-d8197fb25e9f)
+
+9. In Trusted Location tab, copy the local path of the repository then add new location.
+  ![image](https://github.com/user-attachments/assets/eeb21e41-87c2-49a4-ae86-2f9230c68eb9)
+
+**Add-in**
+
 1. Open Microsoft Word
 2. Go to the "Insert" tab
 3. Click on "My Add-ins"

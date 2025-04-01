@@ -63,7 +63,7 @@ VITE_GEMINI_API_KEY=your_api_key_here
 ```bash
 npm run serve
 # or
-wordgpt.bat
+wordgemini.bat
 ```
 
 2. The add-in will be available at `http://localhost:3020`

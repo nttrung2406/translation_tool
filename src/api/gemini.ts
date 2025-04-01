@@ -77,8 +77,7 @@ export async function translateText(options: TranslationOptions): Promise<string
       }
     })
 
-    const prompt = `You are a professional ${options.targetLanguage} translator focused on accuracy and natural-sounding translations. Translate the following text to ${options.targetLanguage}:\n${options.text}. Improve the language quality 
-    from basic to sophisticated where appropriate. Provide only the translation without explanations.`
+    const prompt = `You are a professional ${options.targetLanguage} translator focused on accuracy and natural-sounding translations. Translate the following text to ${options.targetLanguage}:\n${options.text}. Provide only the translation without explanations.`
     const result = await model.generateContent(prompt)
     const response = await result.response
     return response.text()

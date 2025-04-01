@@ -3,7 +3,7 @@ import { BaseChatCompletionOptions } from './types'
 import { handleError, finishLoading } from './utils'
 import { RateLimiter } from './geminiRateLimiter'
 
-const rateLimiter = new RateLimiter(15, 50);
+const rateLimiter = new RateLimiter(2, 50);
 interface ChatCompletionStreamOptions extends BaseChatCompletionOptions {
   geminiAPIKey: string
   geminiModel?: string
